@@ -1,2 +1,2 @@
-let namme = "Hassan";
-alert(namme); 
+let name = "Hassan";
+alert(name); 
