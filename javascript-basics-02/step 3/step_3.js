@@ -1,5 +1,7 @@
 let div1 = document.createElement("div");
-let targetDiv = document.body.appendChild(div1);
+
+document.body.appendChild(div1);
+
 let input1 = document.getElementById("name");
 
 input1.addEventListener("input", function(){
