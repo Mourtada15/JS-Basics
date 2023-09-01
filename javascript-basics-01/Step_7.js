@@ -3,7 +3,7 @@ function calculation() {
     let birthYear = parseFloat(prompt("Please enter your birth year: "));
 
 if (!isNaN(shoeSize) && !isNaN(birthYear)) {
-    let result = ((shoeSize * 2 + 5) * 50 - birthYear) - 1776;
+    let result = ((shoeSize * 2 + 5) * 50 - birthYear) + 1766;
     alert("The result is: " + result);
 } else {
     alert("Please enter valid numbers.")
